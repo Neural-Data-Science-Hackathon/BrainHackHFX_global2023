@@ -17,25 +17,10 @@ body {
 }
 
 .text-color-blue {
-	color:#e24401;
+	color:#912338;
 }
 .text-color-blue a {
-	color:#e24401;
-}
-
-.text-vertical-center {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    color:white;
-    font-family: 'Comfortaa', cursive;
-}
-
-.text-vertical-center h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 4.5em;
-    font-weight: 700;
+	color:#912338;
 }
 
 /* Custom Button Styles */
@@ -43,14 +28,14 @@ body {
 .btn-dark {
     border-radius: 4;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: #912338;
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
-    background-color: rgba(0,0,0,0.7);
+    background-color: #7a1d2e;
 }
 
 .btn-light {
@@ -72,93 +57,6 @@ hr.small {
     max-width: 100px;
 }
 
-/* Side Menu */
-
-#sidebar-wrapper {
-    z-index: 1000;
-    position: fixed;
-    right: 0;
-    width: 250px;
-    height: 100%;
-    margin-right: -250px;
-    overflow-y: auto;
-	background-color: rgba(2,2,2,0.7);
-    /*background: #222;
-	opacity: 0.8;*/
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-}
-
-.sidebar-nav {
-    position: absolute;
-    top: 0;
-    width: 250px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.sidebar-nav li {
-    text-indent: 20px;
-    line-height: 40px;
-}
-
-.sidebar-nav li a {
-    display: block;
-    text-decoration: none;
-    color: #999;
-}
-
-.sidebar-nav li a:hover {
-    text-decoration: none;
-    color: #fff;
-    background: rgba(255,255,255,0.2);
-}
-
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
-    text-decoration: none;
-}
-
-.sidebar-nav > .sidebar-brand {
-    height: 55px;
-    font-size: 18px;
-    line-height: 55px;
-}
-
-.sidebar-nav > .sidebar-brand a {
-    color: #999;
-}
-
-.sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
-    background: none;
-}
-
-#menu-toggle {
-    z-index: 1;
-    position: fixed;
-    top: 0;
-    right: 0;
-}
-
-#sidebar-wrapper.active {
-    right: 250px;
-    width: 250px;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-}
-
-.toggle {
-    margin: 5px 5px 0 0;
-}
-
 /* Header */
 
 .header {
@@ -166,11 +64,27 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/sf_4.jpg) no-repeat center center scroll;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+    background: url(https://upload.wikimedia.org/wikipedia/commons/2/2c/Montreal_-_QC_-_Skyline.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
 }
 
 /* About */
@@ -200,11 +114,11 @@ hr.small {
 }
 
 .services a {
-    color: white;
+    color: #fff;
 }
 
-.services a:focus, a:hover {
-    /*color: white;*/
+.services a:focus, .services a:hover {
+    color: #fff;
     text-decoration: underline;
 }
 
@@ -234,7 +148,7 @@ hr.small {
     /* height: 100px; */
     color: #000;
     font-family: 'Comfortaa', cursive;
-    background: url() no-repeat center center scroll;
+    background: url(fa-solid fa-location-dot) no-repeat center center scroll;
     -webkit-background-size: auto;
     -moz-background-size: auto;
     background-size: auto;
@@ -242,13 +156,16 @@ hr.small {
 }
 
 .text-dark {
-	/*background-color: rgba(51,123,183,.6);*/
-	background-color: rgba(20,20,20,.6);
 	color: #fff;
 }
 
 .text-dark a {
 	color: #fff;
+}
+
+.text-dark a:focus, .text-dark a:hover {
+    color: #fff;
+    text-decoration: underline;
 }
 
 .workspace {
@@ -257,7 +174,8 @@ hr.small {
     height: 400px;
     color: #fff;
     font-family: 'Comfortaa', cursive;
-    background: url(../img/sf_3.jpg) no-repeat center center scroll;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+    background: url(https://upload.wikimedia.org/wikipedia/commons/0/04/Pont_Jacques_Cartier_Montreal.JPG) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -327,12 +245,14 @@ footer {
     padding: 100px 0;
 }
 
+/* Link */
+
 a {
-    color: #e24401;
+    color: #912338;
 }
 
 a:focus, a:hover {
-    /*color: #337ab7;*/
+    color: #912338;
     text-decoration: underline;
 }
 
@@ -383,9 +303,9 @@ a:focus, a:hover {
 
 .bg-primary {
   color: #fff;
-  background-color: #3b2e26;
+  background-color: #912338;
 }
 
 .text-primary {
-    color: #3b2e26;
+    color: #912338;
 }

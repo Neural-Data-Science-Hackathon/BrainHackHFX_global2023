@@ -1,18 +1,18 @@
 {
-  "title": "Brainhack Montreal 2023",
-  "location": "Montreal, QC, Canada",
-  "dates": "December 8 & 11-12, 2023",
+  "title": "Brainhack Halifax 2023",
+  "location": "Halifax, NS, Canada",
+  "dates": "December 8-11, 2023",
   "year": "2023",
-  "background_img": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Montreal_-_QC_-_Skyline.jpg",
+  "background_img": "https://commons.wikimedia.org/wiki/File:Halifax_Harbour_Sunset_Skyline,_Nova_Scotia_(24237034620).jpg",
   "color_theme": {
     "primary": "#912338",
     "primary_hover": "#7a1d2e",
     "font": "#fff"
   },
   "registration_link": "",
-  "mattermost_link": "https://mattermost.brainhack.org/brainhack/channels/brainhack-global-mtl",
+  "mattermost_link": "https://mattermost.brainhack.org/brainhack/channels/brainhack-global-hfx",
   "project_submit_link": "https://brainhack.org/global2023/projects/",
-  "title_photo_link": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Montreal_-_QC_-_Skyline.jpg",
+  "title_photo_link": "https://commons.wikimedia.org/wiki/File:Halifax_Harbour_Sunset_Skyline,_Nova_Scotia_(24237034620).jpg",
   "title_photo_author": "",
   "services": [
     {
@@ -39,7 +39,7 @@
   "details": {
     "costs": "30$ - Breakfast and lunch will be provided."
   },
-  "schedule_background_img": "https://upload.wikimedia.org/wikipedia/commons/0/04/Pont_Jacques_Cartier_Montreal.JPG",
+  "schedule_background_img": "https://dalu.sharepoint.com/:i:/r/sites/assets/photography/2022_Drone_Dal_HFX_-3.jpg?csf=1&web=1&e=sSrr9b",
   "schedule": [
     {
       "date": "Friday, December 8",
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "date": "Monday, December 11",
+      "date": "Saturday, December 9",
       "times": [
         {
           "time": "TBA",
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "date": "Tuesday, December 12",
+      "date": "Sunday, December 10",
       "times": [
         {
           "time": "TBA",
@@ -70,28 +70,24 @@
     }
   ],
   "location_logo": "fa-solid fa-location-dot",
-  "location_name": "Concordia University - John Molson Building (MB) - 9th Floor",
-  "location_url": "https://www.concordia.ca/maps/sgw-campus.html",
-  "google_maps_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.724368605552!2d-73.58174662421322!3d45.4954949710744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a6bad497fd7%3A0x4ea79f8c53ebda6c!2sJohn%20Molson%20School%20of%20Business!5e0!3m2!1sen!2sca!4v1696518079939!5m2!1sen!2sca",
+  "location_name": "Dalhousie University - Faculty of Science - Life Sciences Building - Rm O2660 - 1355 Oxford St - Halifax",
+  "location_url": "https://www.dal.ca/campus-maps/maps.html",
+  "google_maps_link": "https://www.google.ca/maps/place/Life+Sciences+Centre+-+Oceanography,+Dalhousie+University,+1355+Oxford+St,+Halifax,+NS+B3H+4J1/@44.6357968,-63.5947068,17z/data=!4m6!3m5!1s0x4b5a222384cba191:0x78bf96cf57260aac!8m2!3d44.6356125!4d-63.5944334!16s%2Fg%2F1v3drqlx?entry=ttu",
   "sponsors": [
     {
-      "name": "Gina Cody School of Engineering and Computer Science",
-      "url": "https://www.concordia.ca/ginacody.html",
-      "logo": "https://www.concordia.ca/content/concordia/en/ginacody.logo.png/1661711177305.png"
+      "name": "Department of Psychology and Neuroscience",
+      "url": "https://www.dal.ca/faculty/science/psychology_neuroscience.html",
+      "logo": "https://cdn.dal.ca/faculty/science/psychology_neuroscience/about/contact/_jcr_content/contentPar/featureslider/featureSlider/featureslide/image.adaptive.579.high.jpg/1470321279140.jpg"
     },
     {
-      "name": "Concordia Applied AI Institute",
-      "url": "https://www.concordia.ca/research/applied-ai-institute.html",
-      "logo": "https://www.concordia.ca/etc/designs/concordia/clientlibs/img/logo-concordia-university-montreal.png"
+      "name": "Department of Psychiatry",
+      "url": "https://dalpsychiatry.ca/",
+      "logo": "https://dalpsychiatry.ca/images/psychiatry-logo.png"
     }
   ],
   "organizers": [
-    "Mathieu Dugré",
-    "Michelle Wang",
-    "Tristan Glatard",
-    "Yiming Xiao",
-    "Christopher Steele",
-    "Pierre Bellec"
+    "Aaron Newman",
+    "Carl Helmick"
   ],
   "contact_email": "TBA"
 }

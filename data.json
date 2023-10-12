@@ -39,7 +39,7 @@
   "details": {
     "costs": "30$ - Breakfast and lunch will be provided."
   },
-  "schedule_background_img": "../images/2022_Drone_Dal_HFX_3.jpg",
+  "schedule_background_img": "./images/2022_Drone_Dal_HFX_3.jpg",
   "schedule": [
     {
       "date": "Friday, December 8",

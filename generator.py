@@ -21,11 +21,11 @@ def load_json(filename):
 
 
 files_to_generate = [
-    {"filename": "index.html.j2", "location": "./_site"},
-    {"filename": "css/stylish-portfolio.css.j2", "location": "./_site"},
+    {"filename": "index.html.j2", "location": "./docs"},
+    {"filename": "css/stylish-portfolio.css.j2", "location": "./docs"},
 ]
 
-env = Environment(loader=FileSystemLoader("./_site"))
+env = Environment(loader=FileSystemLoader("./docs"))
 info = load_json("data.json")
 
 for f in files_to_generate:

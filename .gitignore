@@ -1,6 +1,5 @@
 .vscode/
 .venv/
 
-_site/css/stylish-portfolio.css
-_site/index.html
-
+docs/css/stylish-portfolio.css
+docs/index.html

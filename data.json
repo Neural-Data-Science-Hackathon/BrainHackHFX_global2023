@@ -1,8 +1,8 @@
 {
   "title": "Brainhack Halifax 2023",
   "location": "Halifax, NS, Canada",
-  "dates": "December 8-10, 2023",
-  "year": "2023",
+  "dates": "February 2-4, 2024",
+  "year": "2024",
   "background_img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Halifax_Harbour_Sunset_Skyline%2C_Nova_Scotia_%2824237034620%29.jpg",
   "color_theme": {
     "primary": "#912338",
@@ -42,7 +42,7 @@
   "schedule_background_img": "../img/2022_Drone_Dal_HFX_3.jpg",
   "schedule": [
     {
-      "date": "Friday, December 8",
+      "date": "Friday, February 2",
       "times": [
         {
           "time": "TBA",
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "date": "Saturday, December 9",
+      "date": "Saturday, February 3",
       "times": [
         {
           "time": "TBA",
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "date": "Sunday, December 10",
+      "date": "Sunday, February 4",
       "times": [
         {
           "time": "TBA",
